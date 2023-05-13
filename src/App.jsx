@@ -1,10 +1,13 @@
 import { useState } from 'react'
+import { Container } from './assets/styles/layout/Container-styled'
 
 
 function App() {
   return (
     <>
-      <h1>test</h1>
+      <Container>
+        <h1>hello</h1>
+      </Container>
     </>
   )
 }
