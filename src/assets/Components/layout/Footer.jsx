@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Container } from '../../styles/layout/Container-styled';
 import { StyledFooter } from '../../styles/layout/Footer-styled';
 import { StyledFlex } from '../../styles/layout/Flex-styled';
+import SocialIcons from '../display/SocialIcons';
 
 Footer.propTypes = {
   
@@ -11,8 +12,7 @@ Footer.propTypes = {
 function Footer(props) {
   return (
     <StyledFooter >
-
-      
+   
       <Container>
         <StyledFlex>
 
@@ -37,9 +37,12 @@ function Footer(props) {
             <li>Contact Us</li>
           </ul>
 
-          
+          <SocialIcons />
 
         </StyledFlex>
+
+        <p>&copy; 2021 Huddle. All rights reserved</p>
+
       </Container>
     
     </StyledFooter>
